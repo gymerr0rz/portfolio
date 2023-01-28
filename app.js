@@ -54,7 +54,10 @@ nav.forEach((e) => {
       });
     }
     if (target.classList.contains('Contact')) {
-      console.log('yo');
+      window.scrollTo({
+        top: 5000,
+        behavior: 'smooth',
+      });
     }
   });
 });

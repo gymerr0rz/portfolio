@@ -355,6 +355,11 @@ li {
     opacity: 50%;
   }
   .container {
+    padding: 100px;
+    background-color: rgba(50, 50, 50, 0.5);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    border: 1px solid #3e3e3e;
     z-index: 55;
     position: absolute;
     left: 50%;
