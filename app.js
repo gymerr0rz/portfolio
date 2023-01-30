@@ -37,31 +37,6 @@ cards.forEach((card) => {
   });
 });
 
-const nav = document.querySelectorAll('.scrollTo');
-nav.forEach((e) => {
-  e.addEventListener('click', (a) => {
-    const target = a.currentTarget;
-    if (target.classList.contains('Home')) {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
-    }
-    if (target.classList.contains('Project')) {
-      window.scrollTo({
-        top: 950,
-        behavior: 'smooth',
-      });
-    }
-    if (target.classList.contains('Contact')) {
-      window.scrollTo({
-        top: 5000,
-        behavior: 'smooth',
-      });
-    }
-  });
-});
-
 const buttons = document.querySelectorAll('.buttons');
 const frontStack = document.querySelectorAll('.front-stack');
 const fullStack = document.querySelectorAll('.full-stack');
